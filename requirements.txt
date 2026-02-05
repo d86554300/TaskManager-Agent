@@ -1,7 +1,14 @@
-python-dotenv==1.1.1
-langchain-core==0.3.72
-langchain-google-genai==2.1.8
-langchain==0.3.27
-pydantic
-todoist-api-python
-tzdata
+# Core Environment
+python-dotenv>=1.0.1
+
+# LangChain Ecosystem (Updated for 3.13 compatibility)
+langchain-core>=0.3.30
+langchain-google-genai>=2.0.9
+langchain>=0.3.14
+
+# Data Validation (Crucial for 3.13)
+pydantic>=2.10.0
+
+# Integration & Utilities
+todoist-api-python>=2.1.7
+tzdata>=2024.2
